@@ -22,6 +22,10 @@ h1 {
     font-size: 2.5rem;
 }
 
+h2 {
+    color: #3b4252;
+}
+
 /* nav styles */
 .menu {
     background-color: rebeccapurple;
