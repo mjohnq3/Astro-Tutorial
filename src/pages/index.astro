@@ -1,26 +1,15 @@
 ---
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import "../styles/global.css";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "Home Page";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>My Astro Site</title>
-	</head>
-	<body>
-		<Header />
-
-		<h1>My Astro Site</h1>
-
-		<Footer />
-		<script>
-			import "../scripts/menu.js";
-		</script>
-	</body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+	<h2>Lbore vero et invidunt consectetuer</h2>
+	<p>
+		Lbore vero et invidunt consectetuer amet sanctus lorem et et eirmod
+		lorem kasd sea diam diam tempor accusam gubergren qui sit consequat
+		takimata euismod ut sit dolore rebum ipsum vero lorem kasd eos vel
+		consequat tincidunt eirmod clita dolore nostrud justo nonumy eleifend
+		congue sit sit no nonummy ea et consetetur nonumy aliquyam at dolor
+	</p>
+</BaseLayout>
